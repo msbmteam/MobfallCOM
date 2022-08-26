@@ -1,0 +1,89 @@
+#topbanner {
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+#topbar {
+    left: 0;
+    width: 100%;
+	display: block;
+	background-color: #282828;
+	height: 70px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1;
+	text-align: center;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+#nav {
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.menuButton {
+    display: block;
+    float: left;
+	color: gold;
+	text-align: center;
+	background-color: #404040;
+    
+	position: static;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    transition: all 0.2s;
+    transition-webkit-: all 0.2s;
+    transitione-moz-: all 0.2s;
+    transition-o-: all 0.2s;
+}
+
+.menuButton:hover {
+	background-color: #505050;
+}
+
+
+@media (max-aspect-ratio: 5/5) {
+	
+}
+
+@media (max-width: 999px) {
+	.menuButton {
+		font-size: 150%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.menuButton {
+		font-size: 200%;
+	}
+}
+
+@media (min-width: 2000px) {
+	.menuButton {
+		font-size: 250%;
+	}
+}
+
+a:link {
+	color: gold;
+}
+
+a:visited {
+	color: gold;
+}

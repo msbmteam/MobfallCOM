@@ -1,0 +1,41 @@
+#profile {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+
+#profilepic {
+	position: relative;
+	top: 0px;
+	border-radius: 50%;
+	max-width: 50%;
+	max-height: 50%;
+}
+
+#profiletext {
+	margin-top: 50px;
+}
+
+#bio {
+	text-align: initial;
+}
+
+.ring {
+	max-width: 50%;
+	max-height: 50%;
+	position: absolute;
+	top: 0px;
+	left: 25%;
+}
+
+.text {
+	font-family: 'Montserrat';
+	color: white;
+}
+
+@media (max-aspect-ratio: 5/5) {
+	.text {
+		font-size: 150%;
+	}
+}

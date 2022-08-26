@@ -1,0 +1,126 @@
+html, body{
+	font-family: 'Montserrat';
+	background-color: #202020 !important;
+    cursor: url("../images/sword-cursor.cur"), default !important;
+}
+
+#contentarea {
+    margin-top: 10px;
+	background-color: #202020;
+    overflow: auto;
+}
+
+a, .carousel-indicators li, button {
+    cursor: url("../images/pickaxe-cursor.cur"), default !important;
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+    width: 10px;
+    cursor: url("../images/sword-cursor.cur"), default;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: #505050;
+    cursor: url("../images/sword-cursor.cur"), default;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    cursor: url("../images/sword-cursor.cur"), default;
+    background: gold;
+}
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    cursor: url("../images/sword-cursor.cur"), default;
+    background: gold;
+}
+
+.link:link {
+	color: rgba(79, 161, 255, 1);
+	text-decoration: underline;
+}
+
+.link:visited {
+	color: rgba(79, 161, 255, 1);
+    text-decoration: underline;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.row {
+	margin: 0 auto;
+	display: table;
+}
+
+.col {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.bufferbefore {
+	padding-top: 20px;
+}
+
+.screenshot {
+	margin: 0 auto;
+	display: table;
+	width: 80%;
+}
+
+p {
+	padding: 20px;
+    font-size: 16pt;
+    color: white;
+    text-align: left;
+}
+
+.text {
+	color: white;
+	text-align: center;
+}
+
+.piccaption {
+	color: white;
+	font-size: 70%;
+	text-align: center;
+}
+
+.centerimg {
+	margin: 0 auto;
+	display: table;
+	width: 80%;
+}
+
+.col-2 {
+	width: 50%;
+}
+
+table, th, td {
+	color: white;
+	border: 1px solid white;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.panel {
+    background-color: #303030;
+    border-color: #303030;
+    margin-left: 10%;
+    width: 80%;
+}
+
+@media (max-aspect-ratio: 4/5) {
+	.col-2 {
+		width: 100%;
+		display: block;
+	}
+}

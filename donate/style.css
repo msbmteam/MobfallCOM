@@ -1,0 +1,66 @@
+.row {
+	margin: 0 auto;
+	display: table;
+}
+
+.col {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.bufferbefore {
+	padding-top: 20px;
+}
+
+.screenshot {
+	margin: 0 auto;
+	display: table;
+	width: 80%;
+}
+
+p {
+	padding: 20px;
+}
+
+.btn-container {
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+	color: white;
+}
+
+.piccaption {
+	color: white;
+	font-size: 70%;
+	text-align: center;
+}
+
+.centerimg {
+	margin: 0 auto;
+	display: table;
+	width: 80%;
+}
+
+.col-2 {
+	width: 50%;
+}
+
+.link:link {
+	color: blue;
+	text-decoration: unset;
+}
+
+.link:visited {
+	color: blue;
+    text-decoration: unset;
+}
+
+@media (max-aspect-ratio: 4/5) {
+	.col-2 {
+		width: 100%;
+		display: block;
+	}
+}
