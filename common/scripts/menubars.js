@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$("head").prepend(
-    '<link rel="shortcut icon" href="common/images/mobfall-icon.png" type="image/x-icon" />'
+    '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />'
     );
     $("body").prepend(
     '<div id="topbanner" style="background-image: url(index/Mobfall_Website-Banner-1920x250.jpg);"></div>'+
