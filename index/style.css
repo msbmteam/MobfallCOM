@@ -5,6 +5,15 @@
 	padding: 10px;
 }
 
+h2 {
+	color: gold;
+	margin: 0px;
+}
+
+.video {
+	margin-top: 20px;
+}
+
 #profilepic {
 	position: relative;
 	top: 0px;

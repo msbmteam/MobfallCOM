@@ -1,7 +1,10 @@
-html, body{
+html {
+	cursor: url("../images/golden_sword_flipped.cur"), default;
+}
+body	 {
 	font-family: 'Montserrat';
 	background-color: #202020 !important;
-    cursor: url("../images/sword-cursor.cur"), default !important;
+    cursor: url("../images/golden_sword.cur"), default;
 }
 
 #contentarea {
@@ -11,31 +14,96 @@ html, body{
 }
 
 a, .carousel-indicators li, button {
-    cursor: url("../images/pickaxe-cursor.cur"), default !important;
+    cursor: url("../images/diamond_sword.cur"), default;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: gold;
+}
+
+#product-image-carousel a {
+   outline: none !important; /* this will remove the outline when we click the anchor tag */
+ }
+ 
+.carousel-control:focus {
+	color: gold;
+	opacity: 0.5;
+ }
+ 
+.carousel-control:hover {
+   color: white !important;
+   opacity: 0.75 !important;
+}
+
+.carousel-control {
+	background-image: none !important;
+	width: 10%;
+}
+
+ul li {
+	color: gold;
+}
+
+/* Download button */
+button.downloadButton {
+	font-size:200%;
+    color: #404040;
+	text-align: center;
+	background-color: gold;
+	border-radius: 12px;
+    
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    transition: all 0.2s;
+    transition-webkit-: all 0.2s;
+    transitione-moz-: all 0.2s;
+    transition-o-: all 0.2s;
+}
+
+button.downloadButton:hover {
+	font-size:200%;
+    color: #404040;
+	text-align: center;
+	background-color: #FFAA00;
+	border-radius: 12px;
+    
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    transition: all 0.2s;
+    transition-webkit-: all 0.2s;
+    transitione-moz-: all 0.2s;
+    transition-o-: all 0.2s;
 }
 
 /* Scrollbar width */
 ::-webkit-scrollbar {
     width: 10px;
-    cursor: url("../images/sword-cursor.cur"), default;
+	cursor: url("../images/golden_sword_flipped.cur") default;
 }
 
 /* Scrollbar Track */
 ::-webkit-scrollbar-track {
     background: #505050;
-    cursor: url("../images/sword-cursor.cur"), default;
+	cursor: url("../images/golden_sword_flipped.cur") default;
 }
 
 /* Scrollbar Handle */
 ::-webkit-scrollbar-thumb {
-    cursor: url("../images/sword-cursor.cur"), default;
     background: gold;
+	cursor: url("../images/golden_sword_flipped.cur") default;
 }
 
 /* Scrollbar Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    cursor: url("../images/sword-cursor.cur"), default;
     background: gold;
+	cursor: url("../images/golden_sword_flipped.cur") default;
 }
 
 .link:link {
@@ -81,6 +149,7 @@ p {
     font-size: 16pt;
     color: white;
     text-align: left;
+	margin: 0;
 }
 
 .text {
