@@ -84,7 +84,7 @@ button.downloadButton:hover {
 
 /* Scrollbar width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 15px;
 	cursor: url("../images/golden_sword_flipped.cur") default;
 }
 
