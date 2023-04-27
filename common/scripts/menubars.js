@@ -18,6 +18,7 @@ $(document).ready(function() {
             '<ul id="nav">'+
                 '<a href="index.html"><li id="homeTopbar" class="menuButton">Home</li></a>'+
                 '<a href="download.html"><li id="downloadTopbar" class="menuButton">Download</li></a>'+
+                '<a href="listen.html"><li id="listenTopbar" class="menuButton">Listen</li></a>'+
                 '<a href="donate.html"><li id="donateTopbar" class="menuButton">Support Us</li></a>'+
                 '<!--<a href="https://my-store-bcbce3.creator-spring.com/" target="_blank"><li id="merchTopbar" class="menuButton external">Merch</li></a>-->'+
             '</ul>'+

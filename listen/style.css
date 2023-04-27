@@ -1,0 +1,57 @@
+#profile {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+
+.row {
+	top: 33%;
+	position: relative;
+	margin: 0 auto;
+	display: table;
+}
+
+.col {
+	display: table-cell;
+	max-width: 150px;
+	width: 25%;
+	padding: 25px;
+}
+
+.contacticon {
+	max-width: 100%;
+	max-height: 100%;
+	display: table;
+	margin: 0 auto;
+    float: left;
+}
+
+#titletext {
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 200%;
+}
+
+@media (max-aspect-ratio: 4/5) {
+	.row {
+		top: unset;
+		height: 80%;
+		display: block;
+	}
+	
+	#title {
+		top: 0px;
+		height: 10%;
+		display: block;
+		text-align: center;
+	}
+	
+	.col {
+		display: block;
+		height: 33%;
+		max-width: unset;
+		width: unset;
+		padding: 0px;
+	}
+}
