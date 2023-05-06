@@ -33,11 +33,13 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
+	overflow: auto;
+	white-space: nowrap;
+	padding: 0px;
 }
 
 .menuButton {
-    display: block;
-    float: left;
+    display: inline-block;
 	color: gold;
 	text-align: center;
 	background-color: #404040;
