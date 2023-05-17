@@ -6,6 +6,11 @@ $(document).ready(function() {
     var threeMonkeysImg = document.getElementById("ThreeMonkeysImg");
     var simNineImg = document.getElementById("Sim_NineImg");
 
+    var weThreeKingsIndicator = document.getElementById("WeThreeKingsIndicator");
+    var sbmTeamIndicator = document.getElementById("SBMteamIndicator");
+    var threeMonkeysIndicator = document.getElementById("ThreeMonkeysIndicator");
+    var simNineIndicator = document.getElementById("Sim_NineIndicator");
+
     weThreeKingsImg.onclick = function() {
         sbmTeamImg.classList.remove("selectedAnimated");
         simNineImg.classList.remove("selectedAnimated");
@@ -13,6 +18,11 @@ $(document).ready(function() {
         weThreeKingsImg.classList.add("selectedAnimated");
         weThreeKingsImg.classList.add("bioImgAnimated");
         weThreeKingsImg.classList.remove("selected");
+        
+        weThreeKingsIndicator.classList.add("active");
+        sbmTeamIndicator.classList.remove("active");
+        threeMonkeysIndicator.classList.remove("active");
+        simNineIndicator.classList.remove("active");
 
         bioText.innerHTML = '<h2 class="text">WeThreeKings</h2>'+
         '<br />'+
@@ -33,6 +43,11 @@ $(document).ready(function() {
         threeMonkeysImg.classList.remove("selectedAnimated");
         sbmTeamImg.classList.add("selectedAnimated");
         sbmTeamImg.classList.add("bioImgAnimated");
+
+        weThreeKingsIndicator.classList.remove("active");
+        sbmTeamIndicator.classList.add("active");
+        threeMonkeysIndicator.classList.remove("active");
+        simNineIndicator.classList.remove("active");
 
         bioText.innerHTML = '<h2 class="text">SBMteam</h2>'+
         '<br />'+
@@ -56,6 +71,11 @@ $(document).ready(function() {
         threeMonkeysImg.classList.add("selectedAnimated");
         threeMonkeysImg.classList.add("bioImgAnimated");
 
+        weThreeKingsIndicator.classList.remove("active");
+        sbmTeamIndicator.classList.remove("active");
+        threeMonkeysIndicator.classList.add("active");
+        simNineIndicator.classList.remove("active");
+
         bioText.innerHTML = '<h2 class="text">ThreeMonkeys</h2>'+
         '<br />'+
         'ThreeMonkeys is the lead command engineer and the main contributor to the Mobfall data pack, which contains 70,000+ commands across 16,000+ mcfunction files and 3300+ JSON files (approximately 80% of the mcfunctions were written by hand, while the remaining 20% were programmatically generated using Python). In addition to squashing many bugs, he designed and implemented many of the main features in the game, including the logic for the shop, death/respawn, music & sound effects, weapon & armor balancing, special arrows & weapons, mob spawning, special mob behavior & effects, leaderboard system, settings, interactive tutorial world, scorekeeping, timers, and much more. Additionally, he refactored the entire codebase, not once, but twice, to convert over 5500 command blocks into a data pack!'+
@@ -78,6 +98,11 @@ $(document).ready(function() {
         simNineImg.classList.add("selectedAnimated");
         simNineImg.classList.add("bioImgAnimated");
 
+        weThreeKingsIndicator.classList.remove("active");
+        sbmTeamIndicator.classList.remove("active");
+        threeMonkeysIndicator.classList.remove("active");
+        simNineIndicator.classList.add("active");
+
         bioText.innerHTML = '<h2 class="text">Sim_Nine</h2>'+
         '<br />'+
         'Sim_Nine was one of the founding developers of Mobfall Arena who contributed to a significant portion of the original command-block-powered codebase. Sim_Nine set up the code infrastructure that would eventually dictate the core layout of the data pack. He also participated as a core member of the beta testing team.'+
@@ -87,7 +112,14 @@ $(document).ready(function() {
         'As a software developer in real life, Sim_Nine has remarked that the command block system in Minecraft makes for a terrible IDE (integrated development environment that helps programmers write code), since each line of code is obfuscated within an individual block in 3D space.';
     }
 
+    weThreeKingsIndicator.onclick = weThreeKingsImg.onclick;
+    sbmTeamIndicator.onclick = sbmTeamImg.onclick;
+    threeMonkeysIndicator.onclick = threeMonkeysImg.onclick;
+    simNineIndicator.onclick = simNineImg.onclick;
+
+
     weThreeKingsImg.classList.add("selected");
+    weThreeKingsIndicator.classList.add("active");
     bioText.innerHTML = '<h2 class="text">WeThreeKings</h2>'+
         '<br />'+
         'WeThreeKings is the lead game and stage designer. He oversaw and managed all game design elements in Mobfall Arena, including developing the basic game flow from PvM to PvP, shop mechanics and initial iterations of the shop layout, mob spawning mechanics, special mob design, game settings, game balancing, and much more.'+

@@ -13,7 +13,7 @@ body	 {
     overflow: auto;
 }
 
-a, .carousel-indicators li, button, .bioImg, .bioImgAnimated {
+a, .carousel-indicators li, .indicators li, button, .bioImg, .bioImgAnimated {
     cursor: url("../images/diamond_sword.cur"), default;
 }
 
@@ -21,7 +21,7 @@ a, .carousel-indicators li, button, .bioImg, .bioImgAnimated {
     width: 12px;
     height: 12px;
     margin: 0;
-    background-color: gold;
+    background-color: rgb(151, 129, 0);;
 }
 
 #product-image-carousel a {

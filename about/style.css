@@ -64,6 +64,27 @@
 	background-size: 750px;
 }
 
+ol {
+	padding-inline-start: 0px;
+}
+
+.indicators li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 6px;
+	text-indent: -999px;
+	background-color: rgba(0, 0, 0, 0);
+	border-width: 0.8px;
+
+	border: 1px solid;
+	border-radius: 10px;
+  }
+
+.indicators .active {
+	background-color: rgb(151, 129, 0);;
+}
+
 @media (max-aspect-ratio: 4/5) {
 	.col-2 {
 		width: 100%;
