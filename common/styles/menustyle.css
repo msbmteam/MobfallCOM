@@ -59,25 +59,42 @@
 	background-color: #505050;
 }
 
+.menuButtonSelected {
+    display: inline-block;
+	color: white;
+	text-align: center;
+	background-color: rgb(151, 129, 0);
+    
+	position: static;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    transition: all 0.2s;
+    transition-webkit-: all 0.2s;
+    transitione-moz-: all 0.2s;
+    transition-o-: all 0.2s;
+}
+
 
 @media (max-aspect-ratio: 5/5) {
 	
 }
 
 @media (max-width: 999px) {
-	.menuButton {
+	.menuButton, .menuButtonSelected {
 		font-size: 150%;
 	}
 }
 
 @media (min-width: 1000px) {
-	.menuButton {
+	.menuButton, .menuButtonSelected {
 		font-size: 200%;
 	}
 }
 
 @media (min-width: 2000px) {
-	.menuButton {
+	.menuButton, .menuButtonSelected {
 		font-size: 250%;
 	}
 }

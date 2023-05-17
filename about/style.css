@@ -1,0 +1,72 @@
+#WeThreeKingsImg {
+	background-image: url("../about/images/WeThreeKings.png");
+}
+
+#SBMteamImg {
+	background-image: url("../about/images/SBMteam.png");
+}
+
+#ThreeMonkeysImg {
+	background-image: url("../about/images/ThreeMonkeys.png");
+}
+
+#Sim_NineImg {
+	background-image: url("../about/images/Sim_Nine.png");
+}
+
+@keyframes zoom {
+	from {background-size: 300px;}
+	to {background-size: 750px;}
+}
+
+@keyframes zoom-out {
+	from {background-size: 750px;}
+	to {background-size: 300px;}
+}
+
+.bioImg {
+	opacity: 0.5;
+	background-size: 300px;
+	background-position: center;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+
+.bioImgAnimated {
+	opacity: 0.5;
+	background-position: center;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	animation-name: zoom-out;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+.bioImg:hover {
+	opacity: 1.0;
+}
+
+.selectedAnimated {
+	opacity: 1.0 !important;
+	background-position: center;
+	animation-name: zoom;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out
+}
+
+.selected {
+	opacity: 1.0 !important;
+	background-position: center;
+	background-size: 750px;
+}
+
+@media (max-aspect-ratio: 4/5) {
+	.col-2 {
+		width: 100%;
+		display: block;
+	}
+}

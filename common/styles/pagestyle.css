@@ -13,7 +13,7 @@ body	 {
     overflow: auto;
 }
 
-a, .carousel-indicators li, button {
+a, .carousel-indicators li, button, .bioImg, .bioImgAnimated {
     cursor: url("../images/diamond_sword.cur"), default;
 }
 
@@ -96,7 +96,7 @@ button.downloadButton:hover {
 
 /* Scrollbar Handle */
 ::-webkit-scrollbar-thumb {
-    background: gold;
+    background: rgb(151, 129, 0);
 	cursor: url("../images/golden_sword_flipped.cur") default;
 }
 
@@ -175,9 +175,14 @@ p {
 
 table, th, td {
 	color: white;
-	border: 1px solid white;
+	border: 0px;
 	margin-bottom: 20px;
+	padding:5px;
 	text-align: center;
+}
+
+td.p {
+	text-align: justify;
 }
 
 .panel {
