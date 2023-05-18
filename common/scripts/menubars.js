@@ -18,7 +18,7 @@ $(document).ready(function() {
             '<ul id="nav">'+
                 '<a href="index.html"><li id="homeTopbar" class="menuButton">🏠 Home</li></a>'+
                 '<a href="download.html"><li id="downloadTopbar" class="menuButton">💾 Download</li></a>'+
-                '<a href="music.html"><li id="musicTopbar" class="menuButton">🎵 Music</li></a>'+
+                '<a href="music.html"><li id="musicTopbar" class="menuButton">🎧 Music</li></a>'+
                 '<a href="about.html"><li id="aboutTopbar" class="menuButton">🙂 About Us</li></a>'+
                 '<a href="donate.html"><li id="donateTopbar" class="menuButton">☕ Support Us</li></a>'+
                 '<a href="https://my-store-bcbce3.creator-spring.com/" target="_blank"><li id="merchTopbar" class="menuButton external">👕 Merch</li></a>'+
