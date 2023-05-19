@@ -12,6 +12,24 @@
 	display: table;
 }
 
+button {
+    display: inline-block;
+	color: gold;
+	text-align: center;
+	background-color: #404040;
+    font-size: 16pt;
+	padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+	border-radius: 8px;
+}
+
+button:hover {
+	background-color: gold;
+	color: #404040;
+    
+}
+
 .col {
 	display: table-cell;
 	max-width: 150px;
