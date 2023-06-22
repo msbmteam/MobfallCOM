@@ -11,19 +11,6 @@
     <script src="common/scripts/jquery-3.3.1.js"></script>
     <!-- Google tag (gtag.js) -->
     <script src="https://www.googletagmanager.com/gtag/js?id=G-SFQV98GZFT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-SFQV98GZFT');
-	  gtag("event", "page_view", {
-	    "page_title": "Mobfall Arena - Download Redirect",
-		"page_location": "https://mobfall.com/download-link.html"
-	  });
-    </script>
   </head>
   <!-- Place this snippet right after opening the head tag to make it work properly -->
 
@@ -39,6 +26,19 @@
 <!--[if lt IE 9]><script type="text/javascript">var IE_fix=true;</script><![endif]-->
 <script type="text/javascript">
 	$(function() {
+		
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'G-SFQV98GZFT');
+		gtag("event", "page_view", {
+			"page_title": "Mobfall Arena - Download Redirect",
+			"page_location": "https://mobfall.com/download-link.html"
+		});
+		
 		var url = "https://drive.google.com/drive/folders/1yq7KbJCWtD2Wmf9o1RQHqF4siaf4dOR7?usp=sharing";
 		if(typeof IE_fix != "undefined") // IE8 and lower fix to pass the http referer
 		{
